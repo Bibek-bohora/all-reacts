@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn button:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+
+  align-content: space-around;
+  flex-wrap: nowrap;
+  padding: 10px;
+  animation: bibek 0.5s infinite linear;
+  backface-visibility: hidden;
+
+  background-color: red;
+  color: #fff;
+  background-blend-mode: multiply;
+}
+
+@keyframes bibek {
+  from {
+    transform: rotate(80deg);
+    transform: translate(100px);
+  }
+
+  to {
+    transform: translate(500px);
+    transform: rotate(50deg);
+  }
+}
+
+.box .boxes:nth-child(1) {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  color: #fff;
+  animation: bibeka 0.5s infinite linear;
+  animation-direction: ;
+}
+
+@keyframes bibeka {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+input {
+  padding: 10px 50px;
+  font-size: 50px;
+  caret-color: red;
+  color: green;
+  height: 1px
+}

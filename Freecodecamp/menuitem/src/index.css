@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headin {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(16, 151, 230);
+  padding: 10px;
+  box-shadow: 4px 4px 20px black;
+  position: sticky;
+  z-index: 999;
+}
+
+.h1 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.unserline:empty {
+  width: 50px;
+  height: 2px;
+  color: red;
+}
+
+.mapcontent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mapcontent {
+}
+
+/* 
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////MENU SEARCH
+//////////////////////////////////////////////////////////////////////////////////////  */
+.images {
+  width: 200px;
+}
+
+.items:nth-child(1) {
+  flex: 1;
+  padding: 0px 20px;
+  margin: 10px;
+}
+
+.pammchild {
+  display: flex;
+  width: 50%;
+  background-color: rgb(115, 149, 149);
+}
+
+.pammdiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemstop {
+  display: flex;
+  background-color: rgb(14, 138, 138);
+}
+
+.botom > p {
+  background-color: aqua;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+
+  background-color: red;
+}
+
+.btn > button {
+  padding: 40px;
+}

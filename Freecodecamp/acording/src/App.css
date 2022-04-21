@@ -1,0 +1,44 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(36, 34, 34); */
+  color: #fff;
+}
+.span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.cointener {
+  background-color: rgb(251, 25, 146);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: #131313;
+  width: 90vh;
+  max-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px black;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  border-radius: 20px;
+}
+
+.infowar {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  transition: all 0.5s ease;
+  padding: 0px 50px;
+}

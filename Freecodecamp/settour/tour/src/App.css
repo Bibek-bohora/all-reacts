@@ -1,0 +1,39 @@
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.components2 {
+  background-color: #222;
+  box-shadow: 2px 2px 20px #fff;
+}
+
+article {
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  word-wrap: break-word;
+}
+.wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 50px;
+  background-color: red;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}

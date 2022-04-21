@@ -1,0 +1,24 @@
+.input {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 48, 49);
+  box-shadow: 2px 2px 20px rgb(70, 73, 69);
+}
+
+input {
+  width: 50%;
+  padding: 15px 50px;
+  outline: none;
+  caret-color: red;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.map {
+  height: 85vh;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+}

@@ -1,0 +1,7 @@
+.top {
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}

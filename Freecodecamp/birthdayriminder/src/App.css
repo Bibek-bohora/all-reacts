@@ -1,0 +1,44 @@
+li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 2px 2px 20px black;
+}
+
+.maindiv {
+  background-color: rgb(36, 32, 34);
+  color: rgb(236, 141, 16);
+  box-shadow: 2px 2px 20px rgb(51, 52, 54);
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aqua;
+}
+
+.filterdiv {
+}
+
+.divbtn {
+  width: 40%;
+  background-color: blueviolet;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 90%;
+  padding: 10px 0px;
+  margin: 0px 40px;
+  height: 100%;
+}

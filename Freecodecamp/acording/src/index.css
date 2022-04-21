@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  padding: 0px 55px;
+  background-color: rgb(32, 67, 75);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: Sticky;
+}
+
+.navmenu {
+  display: flex;
+  cursor: pointer;
+}
+
+.logo {
+  z-index: 999;
+}
+
+.logo:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.navmenu li {
+  list-style: none;
+
+  padding: 10px 20px;
+}
+
+.ctn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 786px) {
+  .btn {
+    background: rgb(161, 17, 17);
+    display: none;
+  }
+
+  .navmenu {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .formobilehidden li {
+    display: none;
+  }
+  .formobile li {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .navmenu {
+    display: none;
+  }
+
+  .formobile {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    height: 180px;
+    left: 0px;
+    background-color: red;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .formobile li {
+    list-style: none;
+    padding: 15px 50px;
+    background-color: blueviolet;
+    border-radius: 22px;
+    width: 100%;
+  }
+
+  .formobilehidden {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    height: 180px;
+    left: -1000px;
+    background-color: red;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .formobilehidden li {
+    display: none;
+  }
+}
+.dropepul li {
+  display: none;
+}
+
+.dropepul:hover {
+  display: none;
+}
+
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+li ul {
+  display: none;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 5px 15px 5px 15px;
+  background: #2c5463;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+ul li a:hover {
+  background: #617f8a;
+}
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+li:hover a {
+  background: #617f8a;
+}
+
+li:hover li a:hover {
+  background: #95a9b1;
+}
+
+
+
+
+
+
+
+.dropepli ul {
+  display: none;
+}
+
+.dropepli:hover ul {
+  display: block;
+  position: absolute;
+  background-color: #35383a;
+  width: 500px;
+  top: 3a0px;
+  right: 3px;
+}
+
+.navmenu li {
+  display: block;
+  position: relative;
+  float: left;
+}
